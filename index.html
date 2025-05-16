@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lista rzeczy do zrobienia">
+    <meta name="keywords" content="to do, lista, rzeczy do zrobienia">
+    <title>js</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Lista rzeczy do zrobienia</h1>
+    </header>
+    <main>
+        <section id="todo-list">
+            <h2>Rzeczy do zrobienia</h2>
+            <ul id="list">
+                <!-- Lista rzeczy do zrobienia -->
+            </ul>
+            <hr>
+        </section>
+        <section id="add-todo">
+            <h2>Dodaj rzecz do zrobienia</h2>
+            <input type="text" id="new-todo" placeholder="Wpisz nową rzecz do zrobienia">
+            <button id="add-button">Dodaj</button>
+        </section>
+        <hr>
+        
+        <!--sekcja prosty kalkulator-->
+        <section id="calculator">
+            <h2>Kalkulator</h2>
+            <input type="number" id="num1" placeholder="Liczba 1">
+            <input type="number" id="num2" placeholder="Liczba 2">
+            <button id="add">Dodaj</button>
+            <button id="subtract">Odejmij</button>
+            <button id="multiply">Pomnóż</button>
+            <button id="divide">Podziel</button>
+            <p id="result"></p>
+            </section>
+            <hr>
+
+        <!--sekcja nowy kalkulator z przyciskami i numerami-->
+        <section id="new-calculator">
+            <h2>Nowy kalkulator</h2>
+            <div id="calculator-buttons">
+                <button class="calc-button">1</button>
+                <button class="calc-button">2</button>
+                <button class="calc-button">3</button>
+                <button class="calc-button plus">+</button>
+                <button class="calc-button">4</button>
+                <button class="calc-button">5</button>
+                <button class="calc-button">6</button>
+                <button class="calc-button minus">-</button>
+                <button class="calc-button">7</button>
+                <button class="calc-button">8</button>
+                <button class="calc-button">9</button>
+                <button class="calc-button multiply">*</button>
+                <button class="calc-button">0</button>
+                <button id="clear" class="clearResult">C</button>
+                <button id="equals" class="equalsResult">=</button>
+                <button class="calc-button divide">/</button>
+            </div>
+            <div id="display"></div>
+        </section>
+        <hr>
+        <!-- sekcja zagar-->
+        <section id="clock">
+            <h2>Zegar</h2>
+            <div id="clock-display"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
